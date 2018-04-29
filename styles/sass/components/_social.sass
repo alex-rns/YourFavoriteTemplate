@@ -1,0 +1,30 @@
+.social
+  &-icon
+    border-radius: 3px
+    transition: $transition
+
+    .fa
+      font-size: 20px
+      color: $light-gray
+      border: lighten($light-gray, 10%) 1px solid
+      border-radius: 3px
+      width: 40px
+      height: 40px
+      text-align: center
+      line-height: 2
+
+    
+    &:hover
+      background: $accent-color
+      .fa
+        color: $white
+        border: lighten($light-gray, 10%) 1px solid
+
+  &-contact
+    .fa
+      line-height: 1.8
+      color: $white
+      border: lighten($light-gray, 10%) 2px solid
+      &:hover
+        border: lighten($light-gray, 10%) 2px solid
+
